@@ -7,7 +7,7 @@ Fi
 Beware
 ------
 
-Enabling directory indexes on a live site can be a serious security risk.
+Enabling directory indexes on a live site can be a serious security risk.  
 **Be sure to enable Fi only where you want all the child directories and files to be viewable!**
 
 
