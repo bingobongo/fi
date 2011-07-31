@@ -1,0 +1,19 @@
+#
+# .htaccess
+# ---------
+#
+
+
+<IfModule mod_autoindex.c>
+
+	Options +Indexes
+
+	IndexOptions Charset=utf-8
+	IndexOptions FancyIndexing FoldersFirst IgnoreCase NameWidth=*
+	IndexOptions SuppressHTMLPreamble SuppressDescription SuppressRules HTMLTable
+
+	HeaderName /fi/header.html
+	ReadmeName /fi/footer.html
+
+
+</IfModule>
