@@ -4,7 +4,7 @@
 @media print, screen {
 
 html            { background:#f1f1ed; }
-body            { color:#2c2f31; font:18px/1.5 Helvetica,Arial,sans-serif; margin:0; padding:0; position:relative; }
+body            { color:#2c2f31; font:18px/1.5 Helvetica,Arial,sans-serif; margin:0; padding:16px 0 80px; position:relative; }
 h1,td,th        { text-rendering:optimizeLegibility; }
 
 ::selection     { background:transparent; }
@@ -15,12 +15,11 @@ h1,td,th        { text-rendering:optimizeLegibility; }
 
 @media print, screen and (min-width:701px) {
 
-h1              { font-size:70px; letter-spacing:-1px; line-height:1.1143; margin:48px 32px 32px; }
+h1 a            { border-bottom:1px solid transparent; bottom:23px; font-size:18px; font-weight:200; line-height:1.2222; margin-left:32px; padding:.6111em .3333em 0 .2222em; position:absolute; }
+
 a               { color:#2c2f31; font-weight:700; text-decoration:none;}
 th a            { font-size:22px; font-weight:200; padding-bottom:.3182em; }
 a:visited       { color:#6c6f71; }
-h1 a,
-h1 a:visited    { color:#dcdfe1; }
 a:focus,
 h1 a:focus,
 a:hover,
@@ -30,7 +29,7 @@ a:active,
 h1 a:active,
 th a:active     { border-color:#e02; color:#e02; }
 
-table           { border-collapse:collapse; margin-bottom:80px; width:100%; }
+table           { border-collapse:collapse; width:100%; }
 tr              { border-top:1px solid #dcdfe1; }
 td a            { font-size:22px; line-height:1.3637; padding:.5em .5em .2273em 0; }
 
@@ -85,6 +84,9 @@ td a:active:after
 @media print {
 
 html            { background:none; }
+body            { padding:0 0 55px; }
+h1 a            { border:none; bottom:0; }
+
 h1,td,th,tr,a,
 a:before,a:after{ background:transparent!important; border-color:black!important; color:black!important; }
 
@@ -97,6 +99,7 @@ td a[href^="/"] { color:transparent!important; }
 @media screen and (max-width:700px) {
 
 html            { -webkit-text-size-adjust:none; }
+body            { padding:0; }
 a               { text-decoration:none; }
 
 table,
