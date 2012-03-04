@@ -1,7 +1,7 @@
 Fi
 ==
 
-**Fi** stands for fancy indexing ([Apache Module mod_autoindex](http://httpd.apache.org/docs/2.0/mod/mod_autoindex.html#indexoptions)). It makes default directory listing index pages look nice. Fi is fluid and not fixed. It is a minimalist mod of [Windex](https://github.com/desandro/windex) without PHP or gaudy icons. Fi is clear as gray – a calmative index for stressed eyes. It is optimized for modern Web browsers and mobile devices.
+**Fi** stands for fancy indexing ([Apache Module mod_autoindex](http://httpd.apache.org/docs/2.0/mod/mod_autoindex.html#indexoptions)). It makes default directory listing index pages look nice. It is a minimalist mod of [Windex](https://github.com/desandro/windex) minus PHP and gaudy icons. Fi is clear as gray – a calmative index for stressed eyes. It is optimized for modern Web browsers and mobile devices (Gecko, WebKit).
 
 
 Beware
@@ -17,7 +17,6 @@ Package Overview
 	/README.md
 	/apple-touch-icon.png
 	/favicon.ico
-	/footer.html
 	/header.html
 	/htaccess
 	/standard.css

@@ -13,7 +13,6 @@
 	IndexOptions SuppressHTMLPreamble SuppressDescription SuppressRules HTMLTable
 
 	HeaderName /fi/header.html
-	ReadmeName /fi/footer.html
 
 
 </IfModule>
