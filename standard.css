@@ -15,16 +15,16 @@ h1,td,th        { text-rendering:optimizeLegibility; }
 
 @media print, screen and (min-width:701px) {
 
-h1 a            { border-bottom:1px solid transparent; bottom:23px; font-size:18px; font-weight:300; line-height:1.2222; margin-left:32px; padding:.6111em .3333em 0 .2222em; position:absolute; }
-
 a               { color:#2c2f31; font-weight:700; text-decoration:none;}
-th a            { font-size:22px; font-weight:300; padding-bottom:.3182em; }
+h1 a            { border-bottom:1px solid transparent; bottom:23px; color:#9c9fa1; font-size:18px; font-weight:300; line-height:1.2222; margin-left:32px; padding:.6111em .3333em 0 .2222em; position:absolute; }
+th a            { color:#9c9fa1; font-size:22px; font-weight:300; padding-bottom:.3182em; }
 a:visited       { color:#6c6f71; }
-a:focus,
-h1 a:focus,
-a:hover,
-h1 a:hover      { color:#2c2f31; border-bottom:1px solid #2c2f31; }
-th a:hover      { color:#2c2f31; }
+h1 a:visited,
+th a:visited    { color:#9c9fa1; }
+a:focus,a:hover,
+h1 a:focus,h1 a:hover
+th a:focus,th a:hover
+                { color:#2c2f31; border-bottom:1px solid #2c2f31; }
 a:active,
 h1 a:active,
 th a:active     { border-color:#e02; color:#e02; }
@@ -68,7 +68,14 @@ td a:active:before
 /* ------------ parent directory -------- */
 td a[href^="/"] { border-color:transparent; color:transparent; }
 td a[href^="/"]:before
-                { content:' ↑ '; }
+                { color:#2c2f31; content:' ↑ '; }
+td a[href^="/"]:visited:before
+                { color:#6c6f71; }
+td a[href^="/"]:focus:before,
+td a[href^="/"]:hover:before
+                { color:#2c2f31; }
+td a[href^="/"]:active:before
+                { color:#e02; }
 td a[href^="/"]:after
                 { color:#2c2f31; content:" "attr(href); left:2.591em; line-height:1.37;/* presto */ position:absolute; padding-bottom:.091em; padding-right:.5em; }
 td a:visited:after

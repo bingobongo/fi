@@ -14,12 +14,12 @@ Enabling directory indexes on a live site can be a serious security risk.
 Package Overview
 ----------------
 
-	/README.md
-	/apple-touch-icon.png
-	/favicon.ico
-	/header.html
-	/htaccess
-	/standard.css
+    /README.md
+    /apple-touch-icon.png
+    /favicon.ico
+    /header.html
+    /htaccess
+    /standard.css
 
 
 Installation
