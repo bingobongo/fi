@@ -6,13 +6,13 @@
 
 <IfModule mod_autoindex.c>
 
-	Options +Indexes
+  Options +Indexes
 
-	IndexOptions Charset=utf-8
-	IndexOptions FancyIndexing FoldersFirst IgnoreCase NameWidth=*
-	IndexOptions SuppressHTMLPreamble SuppressDescription SuppressRules HTMLTable
+  IndexOptions Charset=utf-8
+  IndexOptions FancyIndexing FoldersFirst IgnoreCase NameWidth=*
+  IndexOptions SuppressHTMLPreamble SuppressDescription SuppressRules HTMLTable
 
-	HeaderName /fi/header.html
+  HeaderName /fi/header.html
 
 
 </IfModule>
